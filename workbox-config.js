@@ -3,5 +3,5 @@ export default {
     globPatterns: [
         '**/*/{css, wolf2, png, svg, js, ts, tsx, vue, scss}'
     ],
-    swDest: '/sw.js'
+    swDest: 'sw.js'
 }

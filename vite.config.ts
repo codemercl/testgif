@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 const vitePwa = VitePWA({
   registerType: "autoUpdate",
-  outDir: "/",
+  outDir: "dist",
   manifest: {
     name: "giffy PWA applicataion",
     short_name: "giffy",
