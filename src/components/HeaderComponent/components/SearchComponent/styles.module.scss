@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  input {
+    flex: 1; 
+    font-size: 1.125rem;
+    padding: 0.625rem 1.875rem;
+  }
+}

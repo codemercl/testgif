@@ -1,0 +1,36 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 18.3125rem auto;
+  // grid-template-columns: repeat(2, minmax(15.3125rem, 1fr)); 
+  align-items: center;
+  gap: 2rem;
+}
+
+.share-button {
+  position: fixed;
+  top: 100px;
+  z-index: 99;
+  display: none;
+
+  button {
+    background: rgb(15,6,168);
+    background: linear-gradient(90deg, rgba(15,6,168,1) 0%, rgba(101,70,221,1) 100%);
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .4;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  .share-button {
+    display: inline-block;
+  }
+}

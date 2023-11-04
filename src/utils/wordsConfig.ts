@@ -1,0 +1,1 @@
+export const wordsConfig = ['apple', 'banana', 'cherry', 'date', 'cat', 'dog', 'owl', 'sky', 'road', 'head', 'man', 'turtle', 'water', 'fire', 'rainbow'];
