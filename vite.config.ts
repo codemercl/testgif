@@ -27,7 +27,7 @@ const vitePwa = VitePWA({
 })
 
 export default defineConfig({
-  base: '/giffy',
+  base: '/testgif',
   plugins: [vue(), vitePwa],
   resolve: {
     alias: {
